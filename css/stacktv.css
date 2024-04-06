@@ -445,7 +445,7 @@ img.loadedImg {
 	width: 6rem;
 	height: 6rem;
 	z-index: 9999;
-	left: 0%;
+	left: 1110%;
 	top: 0%;
 	transform: translate(-50%, -50%);
 	color: rgba(0, 0, 0, 0.75);
@@ -717,3 +717,8 @@ img.loadedImg {
 		color: rgba(255, 255, 255, 0.75);
 	}
 }
+
+
+
+
+
