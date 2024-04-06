@@ -17,6 +17,7 @@
 		showLog: true,
 		fetchTimeOut: 30000,
 		lazyLoadSize: 100,
+		lang: "zh-hans",
 		autoTheaterMode: true,
 		tv_list: [{
 			'tv_name': 'Stack TV',
@@ -33,7 +34,6 @@
 			timeProgress: true,
 			currentTime: true,
 			playRate: [0.5, 1, 1.5, 2],
-			audioTrack: true,
 			theaterMode: true
 		}
 	};
@@ -64,8 +64,26 @@
 		],
 		['film',
 			`<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM48 368v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H416zM48 240v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H416zM48 112v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zM416 96c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H416zM160 128v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H192c-17.7 0-32 14.3-32 32zm32 160c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V320c0-17.7-14.3-32-32-32H192z"/></svg>`
+		],
+		['loading',
+			`<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M511.882596 287.998081h-0.361244a31.998984 31.998984 0 0 1-31.659415-31.977309v-0.361244c0-0.104761 0.115598-11.722364 0.115598-63.658399V96.000564a31.998984 31.998984 0 1 1 64.001581 0V192.001129c0 52.586273-0.111986 63.88237-0.119211 64.337537a32.002596 32.002596 0 0 1-31.977309 31.659415zM511.998194 959.99842a31.998984 31.998984 0 0 1-31.998984-31.998984v-96.379871c0-51.610915-0.111986-63.174332-0.115598-63.286318s0-0.242033 0-0.361243a31.998984 31.998984 0 0 1 63.997968-0.314283c0 0.455167 0.11921 11.711527 0.11921 64.034093v96.307622a31.998984 31.998984 0 0 1-32.002596 31.998984zM330.899406 363.021212a31.897836 31.897836 0 0 1-22.866739-9.612699c-0.075861-0.075861-8.207461-8.370021-44.931515-45.094076L195.198137 240.429485a31.998984 31.998984 0 0 1 45.256635-45.253022L308.336112 263.057803c37.182834 37.182834 45.090463 45.253022 45.41197 45.578141A31.998984 31.998984 0 0 1 330.899406 363.021212zM806.137421 838.11473a31.901448 31.901448 0 0 1-22.628318-9.374279L715.624151 760.859111c-36.724054-36.724054-45.018214-44.859267-45.097687-44.93874a31.998984 31.998984 0 0 1 44.77618-45.729864c0.32512 0.317895 8.395308 8.229136 45.578142 45.411969l67.88134 67.88134a31.998984 31.998984 0 0 1-22.624705 54.630914zM224.000113 838.11473a31.901448 31.901448 0 0 0 22.628317-9.374279l67.88134-67.88134c36.724054-36.724054 45.021826-44.859267 45.097688-44.93874a31.998984 31.998984 0 0 0-44.776181-45.729864c-0.32512 0.317895-8.395308 8.229136-45.578142 45.411969l-67.88134 67.884953a31.998984 31.998984 0 0 0 22.628318 54.627301zM255.948523 544.058589h-0.361244c-0.104761 0-11.722364-0.115598-63.658399-0.115598H95.942765a31.998984 31.998984 0 1 1 0-64.00158h95.996952c52.586273 0 63.88237 0.111986 64.337538 0.11921a31.998984 31.998984 0 0 1 31.659414 31.97731v0.361244a32.002596 32.002596 0 0 1-31.988146 31.659414zM767.939492 544.058589a32.002596 32.002596 0 0 1-31.995372-31.666639v-0.361244a31.998984 31.998984 0 0 1 31.659415-31.970085c0.455167 0 11.754876-0.11921 64.34115-0.11921h96.000564a31.998984 31.998984 0 0 1 0 64.00158H831.944685c-51.936034 0-63.553638 0.111986-63.665624 0.115598h-0.335957zM692.999446 363.0176a31.998984 31.998984 0 0 1-22.863126-54.381656c0.317895-0.32512 8.229136-8.395308 45.41197-45.578141l67.88134-67.884953A31.998984 31.998984 0 1 1 828.693489 240.429485l-67.892177 67.88134c-31.020013 31.023625-41.644196 41.759794-44.241539 44.393262l-0.697201 0.722488a31.908673 31.908673 0 0 1-22.863126 9.591025z"></path></svg>`
 		]
 	]);
+	var i18n = new Map([
+		["zh-hans", {
+			"listHead": "节目单",
+			"search": "搜索节目"
+		}],
+		["zh-hant", {
+			"listHead": "節目單",
+			"search": "搜索節目"
+		}],
+		["en-us", {
+			"listHead": "TV List",
+			"search": "Search TV"
+		}],
+	])
+
 	var hideLogTimer;
 	var removeDisturbTimer;
 	var AwesomeStackTV = function(option, undefined) {
@@ -76,9 +94,21 @@
 		init: function(option, undefined) {
 			let _this = this;
 			_this._setting = extend({}, defaultSetting, option);
+			let lang = _this._setting.lang.toLowerCase();
 			_this.searchResult = [];
 			this.hls = new Hls();
 			Object.defineProperties(this._setting, {
+				lang:{
+					get: function(){
+						return lang || document.querySelector("html").getAttribute("lang") || "zh-hans";
+					},
+					set:function(newValue){
+						let newV = typeof newValue == 'string' ? newValue.toLowerCase() : 'zh-hans';
+						lang =  i18n.get(newV) ? newV : "zh-hans";
+						document.querySelector(".stack-tv-switch-head").innerText = i18n.get(lang).listHead;
+						document.querySelector(".stack-tv-switch-foot>input").placeholder = i18n.get(lang).search;
+					}
+				},
 				tv: {
 					get: function() {
 						this._tv = _this._stackvideo ? _this._stackvideo : document
@@ -102,7 +132,6 @@
 				},
 				currentLoadIndex: {
 					get: function() {
-						// return _this._setting.tv_list.filter(item=>item.loaded==true).length || 0;
 						return this._currentLoadIndex || 0;
 					},
 					set: function(newValue) {
@@ -134,18 +163,19 @@
 						if (this._theaterMode) {
 							addClass("wide-screen", _this._tvbox);
 							addClass("hidden", _this._stackswitchbox);
-							addClass("stack-tv-theaterMode", document.querySelector("body"));
+							addClass("stack-tv-theaterMode", document.querySelector(
+								"body"));
 						} else {
 							removeClass("wide-screen", _this._tvbox);
 							removeClass("hidden", _this._stackswitchbox);
-							removeClass("stack-tv-theaterMode", document.querySelector("body"));
+							removeClass("stack-tv-theaterMode", document.querySelector(
+								"body"));
 						}
 					}
 				}
 			});
 
 			_this._initTV();
-			// _this._genSwitches();
 			if (_this._setting.showAbout) {
 				_this.log("准备播放Stack TV介绍...");
 				_this.loadUrl(defaultSetting.default_url);
@@ -170,7 +200,6 @@
 				if (Hls.isSupported()) {
 					this.log("正在载入hls...");
 					this.hls.on(Hls.Events.ERROR, function(event, data) {
-						// _this.log("hls:视频加载出错");
 						if (data.fatal) {
 							switch (data.type) {
 								case Hls.ErrorTypes.NETWORK_ERROR:
@@ -195,7 +224,12 @@
 					this._setting.tv.src = url;
 				}
 			} else {
-				this._setting.tv.src = url;
+				try {
+					this._setting.tv.src = url;
+				} catch (e) {
+					console.error(e);
+				}
+
 			}
 
 		},
@@ -213,16 +247,17 @@
 		},
 		_initTV: function() {
 			let _this = this;
+			let lang = _this._setting.lang;
 			let div = document.createElement('div');
 			let tv = document.createElement("div");
 			let tvLog = document.createElement("div");
 			let switchs = document.createElement("div");
 			let switchlist = document.createElement("div");
 			let switchHead = document.createElement("div");
-			switchHead.innerText = "节目单";
+			switchHead.innerText = i18n.get(lang).listHead;
 			let switchSearch = document.createElement("div");
 			let input = document.createElement("input");
-			input.placeholder = "搜索节目";
+			input.placeholder = i18n.get(lang).search;
 			switchSearch.appendChild(input);
 			addClass("stack-tv-switch-foot", switchSearch);
 			addClass("stack-tv-switch-head", switchHead);
@@ -260,8 +295,10 @@
 				._setting.selector) : document.querySelector("body");
 			container.appendChild(div);
 			this._createControlPanel();
+			this._createLoadingPanel();
 
-			tv.addEventListener("mousemove",tvMoveHandler);
+			tv.addEventListener("mousemove", tvMoveHandler);
+
 			function tvMoveHandler(e) {
 				if (_this._setting.theaterMode) {
 					let right = tv.getBoundingClientRect().width - e.x;
@@ -291,7 +328,6 @@
 					e.stopPropagation();
 					return;
 				}
-				// _this._stackswitchlist.scrollTop = 0;
 				_this._stackswitchlist.scroll({
 					left: 0,
 					top: 0,
@@ -304,7 +340,8 @@
 						if (!item.tv_name) {
 							return false;
 						}
-						if (item.tv_name.toUpperCase().indexOf(inputValue.toUpperCase()) >=
+						if (item.tv_name.toUpperCase().indexOf(inputValue
+								.toUpperCase()) >=
 							0) {
 							let searchItem = {};
 							searchItem.index = index;
@@ -322,10 +359,8 @@
 
 					});
 
-					// console.log(_this.searchResult);
 					_this._genSwitches();
 
-					// _this._genSwitches();
 				} else {
 					_this._setting.tv_list.forEach((item, index) => {
 						_this._setting.tv_list[index].hidden = false
@@ -342,6 +377,9 @@
 				_this._stackvideo.removeAttribute("poster");
 				_this.log("努力加载...");
 			});
+			video.addEventListener("canplay", function() {
+				_this.canplay = true;
+			});
 			video.addEventListener("canplaythrough", function() {
 				_this.log("开始播放...");
 				hideLogTimer = setTimeout(function() {
@@ -357,11 +395,20 @@
 				_this.log("播放出现一点问题");
 			});
 			video.addEventListener("progress", function() {
-				// let start = this.buffered.start(0);
-				// let end = this.buffered.end(0);
-				// let len = this.buffered.length;
-				// console.log(`${start}-${end}-len:${len}`);
+				let curent = Math.floor(this.currentTime * 100) / 100;
+				let bufferEnd = this.buffered.length > 0 ? this.buffered.end(0) : curent - 1;
+				if (bufferEnd - curent > 1) {
+					addClass("hidden", _this._loadingPanel);
+					video.play().catch(err=>{
+						// console.error(err);
+					});
+				} else {
+					video.pause();
+				}
 			});
+			video.onplaying = function() {
+				removeClass("hidden", _this._loadingPanel);
+			}
 			video.oncontextmenu = function() {
 				return false;
 			}
@@ -502,12 +549,16 @@
 				});
 
 				function toggle() {
-					if (_this._stackvideo.paused) {
-						_this._stackvideo.play();
-						div.innerHTML = ICONS.get("pause");
-					} else {
-						_this._stackvideo.pause();
-						div.innerHTML = ICONS.get("play")
+					try {
+						if (_this._stackvideo.paused) {
+							_this._stackvideo.play();
+							div.innerHTML = ICONS.get("pause");
+						} else {
+							_this._stackvideo.pause();
+							div.innerHTML = ICONS.get("play")
+						}
+					} catch (e) {
+						console.error(e);
 					}
 				}
 			}
@@ -588,11 +639,82 @@
 				toolbar.appendChild(div);
 			}
 			panel.appendChild(toolbar);
+			if (option.timeProgress) {
+				let timebar = document.createElement("div");
+				addClass("stack-tv-progressbar", timebar);
+				let time1 = document.createElement("div");
+				addClass("stack-tv-progressbar-time", time1);
+				addClass("left", time1);
+				let time2 = document.createElement("div");
+				addClass("stack-tv-progressbar-time", time2);
+				addClass("right", time2);
+				let line = document.createElement("div");
+				addClass("stack-tv-progressbar-line", line);
+				let span = document.createElement("span");
+				addClass("line-item", span);
+				line.appendChild(span);
+				timebar.appendChild(time1);
+				timebar.appendChild(line);
+				timebar.appendChild(time2);
+				panel.appendChild(timebar);
+
+				_this._stackvideo.addEventListener("timeupdate", setTime);
+				_this._stackvideo.addEventListener("loadeddata", setTime);
+
+				line.onclick = function(e) {
+					let evt = e || event;
+					let spanW = span.getBoundingClientRect().width;
+					let lineW = line.getBoundingClientRect().width;
+					let lineL = line.getBoundingClientRect().left;
+					let trackLen = lineW;
+					let newL = evt.x - lineL;
+					if (newL <= 0) {
+						newL = 0;
+					}
+					if (newL > trackLen) {
+						newL = trackLen;
+					}
+					span.style.left = `${newL * 100 /trackLen}%`;
+					let current = Math.floor(newL * _this.endTime / trackLen);
+					time1.innerText = formateTime(current);
+					_this._stackvideo.currentTime = current;
+				}
+
+				function setTime() {
+					let video = _this._stackvideo;
+					let current = Math.floor(video.currentTime);
+					let bufferEnd = video.buffered.length > 0 ? video.buffered.end(video.buffered
+						.length -
+						1) : current;
+					let endTime = video.duration == Infinity ? bufferEnd : video.duration;
+					endTime = Math.floor(endTime);
+					_this.currentTime = current;
+					_this.endTime = endTime;
+
+					time1.innerText = formateTime(current);
+					time2.innerText = formateTime(endTime);
+
+					var spanL = (current / endTime) * 100;
+					span.style.left = spanL + '%';
+				}
+
+
+			}
 			this._tvbox.appendChild(panel);
+		},
+		_createLoadingPanel: function() {
+			let _this = this;
+			let div = document.createElement("div");
+			addClass("stack-loading-panel", div);
+			let loading = document.createElement("div");
+			loading.innerHTML = ICONS.get("loading");
+			addClass("stack-loading", loading);
+			div.appendChild(loading);
+			_this._loadingPanel = div;
+			_this._tvbox.appendChild(div);
 		},
 		_genSwitches: function() {
 			let _this = this;
-			// _this._stackswitchlist.innerHTML = "";
 			let gen_list;
 			let flag = false;
 			if (this.searchResult && this.searchResult.length > 0) {
@@ -615,7 +737,6 @@
 			for (let j = 0; j < _this._setting.lazyLoadSize; j++) {
 				let i = _this._setting.currentLoadIndex;
 				if (i >= gen_list.length) {
-					// _this._setting.currentLoadIndex += 1;
 					return false;
 				}
 				if (gen_list[i].loaded) {
@@ -629,8 +750,9 @@
 				tvname.innerText = gen_list[i].tv_name ? gen_list[i].tv_name :
 					`节目-${i+1}`;
 				addClass("stack-tv-switch-item", div);
-				(gen_list[i].hidden != undefined && gen_list[i].hidden) ? addClass("hidden", div): addClass(
-					"shown", div);
+				(gen_list[i].hidden != undefined && gen_list[i].hidden) ? addClass("hidden", div):
+					addClass(
+						"shown", div);
 				div.setAttribute("tv_name", gen_list[i].tv_name);
 				div.setAttribute("tv_url", gen_list[i].tv_url);
 				div.setAttribute("tv_logo", gen_list[i].tv_logo);
@@ -641,9 +763,8 @@
 				div.appendChild(img);
 				div.appendChild(tvname);
 				div.addEventListener("click", function() {
-					// _this.loadUrl(div.getAttribute("tv_url"));
-					// _this._stackvideo.poster = div.getAttribute("tv_logo");
-					_this._setting.currentTVIndex = div.style.getPropertyValue('--stack-tv-index');
+					_this._setting.currentTVIndex = div.style.getPropertyValue(
+						'--stack-tv-index');
 				});
 				_this._stackswitchlist.appendChild(div);
 				_this._setting.tv_list[tv_index].loaded = true;
@@ -679,6 +800,13 @@
 			this._stacktvlog.appendChild(logItem);
 			if (logs.length > this._setting.maxLog) {
 				addClass("hidden", logs[logs.length - 1 - this._setting.maxLog]);
+			}
+		},
+		lang:function(newLang){
+			if(typeof newLang == 'string'){
+				this._setting.lang = newLang;
+			}else{
+				console.warn("Invalid value.");
 			}
 		},
 		fetchM3U: function(url) {
@@ -804,7 +932,6 @@
 			document.exitFullscreen()
 		}
 		//兼容火狐
-		console.log(document.mozExitFullScreen)
 		if (document.mozCancelFullScreen) {
 			document.mozCancelFullScreen()
 		}
@@ -819,7 +946,8 @@
 	}
 
 	function isMobile() {
-		return /(iPhone|iPad|iPod|iOS|Android|Linux armv8l|Linux armv7l|Linux aarch64)/i.test(navigator.userAgent);
+		return /(iPhone|iPad|iPod|iOS|Android|Linux armv8l|Linux armv7l|Linux aarch64)/i.test(navigator
+			.userAgent);
 	}
 
 	function fetchData(url, type = 'text') {
@@ -841,6 +969,16 @@
 
 	function mod(n, m) {
 		return ((n % m) + m) % m;
+	}
+
+	function formateTime(time) {
+		const h = parseInt(time / 3600)
+		const minute = parseInt(time / 60 % 60)
+		const second = Math.ceil(time % 60)
+
+		const hours = h < 10 ? '0' + h : h
+		const formatSecond = second > 59 ? 59 : second
+		return `${hours > 0 ? `${hours}:` : ''}${minute < 10 ? '0' + minute : minute}:${formatSecond < 10 ? '0' + formatSecond : formatSecond}`
 	}
 
 	function extend() {
@@ -917,6 +1055,7 @@
 
 	AwesomeStackTV.fn.init.prototype = AwesomeStackTV.fn;
 	window.AwesomeStackTV = AwesomeStackTV;
-	window.$ASTV = AwesomeStackTV;
+	window
+		.$ASTV = AwesomeStackTV;
 	return this;
 })(window);
