@@ -1,3 +1,880 @@
+
+
+
+
+<html class="sr"><head><style type="text/css">* {user-select: auto !important; -webkit-user-select: auto !important;}</style><input type="hidden" id="inject_idm_text_selection"></head><body bgcolor="black" style="height: 100%;"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+/*!
+
+ * قائمة جانبية ©
+
+ * جميع الحقوق محفوظة ©
+
+تصميم:تطبيق كود html 
+
+ */
+
+/*homeblog7.blogspot.com CSS starts*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.menu-outer:hover ~ .menu-close {
+
+  margin-right:-100px;
+
+}
+
+.menu-outer:hover .bar { background:rgba(100,200,240,.9); }
+
+.menu-outer > .nav ul { top:10%; }
+
+.menu-outer {
+
+  overflow: hidden;
+
+  position: fixed;
+
+  top: 0;
+
+  font-family: 'Montserrat', serif;
+
+  z-index: 998;  
+
+  width: 100%;
+
+  left: 100%;
+
+  margin-left: -100px;
+
+  height: 200%;
+
+    background: rgb(31 37 46);
+
+  -webkit-transition: all ease .5s;
+
+  -moz-transition: all ease .5s;
+
+  -ms-transition: all ease .5s;
+
+  -o-transition: all ease .5s;
+
+  transition: all ease .5s; 
+
+  -webkit-transform-origin: top left;
+
+  -moz-transform-origin: top left;
+
+  -ms-transform-origin: top left;
+
+  -o-transform-origin: top left;
+
+  transform-origin: top left;
+
+  -webkit-transform: rotate(-45deg);
+
+  -moz-transform: rotate(-45deg);
+
+  -ms-transform: rotate(-45deg);
+
+  -o-transform: rotate(-45deg);
+
+  transform: rotate(-45deg);
+
+}
+
+.menu-outer:hover {
+
+  background: rgb(31 37 46);
+
+  left: 0;
+
+  margin-left: 0;
+
+  -webkit-transform: rotate(0deg);
+
+  -moz-transform: rotate(0deg);
+
+  -ms-transform: rotate(0deg);
+
+  -o-transform: rotate(0deg);
+
+  transform: rotate(0deg);
+
+}
+
+.menu-icon {
+
+  z-index: 999;
+
+  position: absolute;
+
+  top: 58px;
+
+  left: 15px;
+
+  width: 30px;
+
+  pointer-events: none;
+
+  -webkit-transform: rotate(45deg);
+
+  -moz-transform: rotate(45deg);
+
+  -ms-transform: rotate(45deg);
+
+  -o-transform: rotate(45deg);
+
+  transform: rotate(45deg);
+
+  -webkit-transition: all ease .5s;
+
+  -moz-transition: all ease .5s;
+
+  -ms-transition: all ease .5s;
+
+  -o-transition: all ease .5s;
+
+  transition: all ease .5s;
+
+}
+
+.menu-icon .bar {
+
+  background: rgba(250,250,250,1);
+
+  width: 100%;
+
+  height: 3px;
+
+  margin: 0 0 5px;
+
+  -webkit-transition: all ease .5s;
+
+  -moz-transition: all ease .5s;
+
+  -ms-transition: all ease .5s;
+
+  -o-transition: all ease .5s;
+
+  transition: all ease .5s;
+
+}
+
+.menu-outer:hover > .menu-icon {
+
+  opacity: 0;
+
+}
+
+.nav ul {
+
+  position:absolute;
+
+  width:100%;
+
+  padding: 0;
+
+  left: 10%;
+
+  -webkit-transition: all ease .5s;
+
+  -moz-transition: all ease .5s;
+
+  -ms-transition: all ease .5s;
+
+  -o-transition: all ease .5s;
+
+  transition: all ease .5s;
+
+}
+
+.menu-outer:hover > .nav ul {
+
+  left: 0;
+
+}
+
+.nav li {
+
+  list-style:none;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+}
+
+.nav li a {
+
+  font-size: 2em;
+
+  color: rgba(255,255,255,.8);
+
+  text-decoration: none;
+
+  margin: 0 auto;
+
+  padding: 20px;
+
+  display:block;
+
+  -webkit-transition: all ease .5s;
+
+  -moz-transition: all ease .5s;
+
+  -ms-transition: all ease .5s;
+
+  -o-transition: all ease .5s;
+
+  transition: all ease .5s;
+
+  text-align:center;
+
+  font-family: 'Almarai';
+
+}
+
+.nav li a:hover {
+
+  color: rgba(255,255,255,1);
+
+}
+
+@media screen and (max-width: 600px), screen and (max-height: 600px) {
+
+  .nav ul {font-size:.75em;}
+
+  .nav ul a {padding: 10px;}
+
+}
+
+.menu-close {
+
+  z-index: 9999;
+
+  position: fixed;
+
+  top: 0;
+
+  right: 100%;
+
+  width: 200px;
+
+  height: 200px;
+
+  background: rgb(114 136 169);
+
+  cursor: pointer;
+
+  -webkit-transition: all ease .5s;
+
+  -moz-transition: all ease .5s;
+
+  -ms-transition: all ease .5s;
+
+  -o-transition: all ease .5s;
+
+  transition: all ease .5s;
+
+  -webkit-transform-origin: top right;
+
+  -moz-transform-origin: top right;
+
+  -ms-transform-origin: top right;
+
+  -o-transform-origin: top right;
+
+  transform-origin: top right;
+
+  -webkit-transform: rotate(45deg);
+
+  -moz-transform: rotate(45deg);
+
+  -ms-transform: rotate(45deg);
+
+  -o-transform: rotate(45deg);
+
+  transform: rotate(45deg);
+
+}
+
+.menu-close .menu-icon {
+
+  right: 15px; left: auto;top: 68px;
+
+  -webkit-transform: rotate(-45deg);
+
+  -moz-transform: rotate(-45deg);
+
+  -ms-transform: rotate(-45deg);
+
+  -o-transform: rotate(-45deg);
+
+  transform: rotate(-45deg);
+
+}
+
+.menu-close .bar {
+
+  background: rgba(250,250,250,1);
+
+  width: 100%;
+
+  height: 5px;
+
+  position:absolute;
+
+  -webkit-transform-origin: center;
+
+  -moz-transform-origin: center;
+
+  -ms-transform-origin: center;
+
+  -o-transform-origin: center;
+
+  transform-origin: center;
+
+}
+
+.menu-close .bar:first-child {
+
+  -webkit-transform: rotate(45deg);
+
+  -moz-transform: rotate(45deg);
+
+  -ms-transform: rotate(45deg);
+
+  -o-transform: rotate(45deg);
+
+  transform: rotate(45deg);
+
+}
+
+.menu-close .bar:last-child {
+
+  -webkit-transform: rotate(-45deg);
+
+  -moz-transform: rotate(-45deg);
+
+  -ms-transform: rotate(-45deg);
+
+  -o-transform: rotate(-45deg);
+
+  transform: rotate(-45deg);
+
+}
+
+.tabs .widget li, .tabs .widget li {float:none}
+
+/*homeblog7.blogspot.com CSS ends*/
+
+/*!
+
+ * قائمة جانبية ©
+
+ * جميع الحقوق محفوظة ©
+
+ * تصميم : كود html
+
+ */
+
+body {
+
+  
+
+  
+
+  
+
+  font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #1f252e;
+
+}
+
+  
+
+  
+
+.ShahidHeaderContainer_container__3vk3K {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    display: flex;
+
+    flex-flow: row nowrap;
+
+    z-index: 1;
+
+    margin-left: 10px;
+
+    flex-direction: row;
+
+    align-items: baseline;
+
+    justify-content: space-evenly;
+
+}
+
+.topnav {font-family: 'Almarai', sans-serif;
+
+  overflow: hidden;
+
+  background-color: #1f252e;
+
+  position: relative;
+
+}
+
+.topnav #myLinks {
+
+  display: none;
+
+}
+
+.topnav a {font-family: 'Almarai', sans-serif;
+
+  float: right;
+
+  color: white;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+  font-size: 17px;
+
+}
+
+.topnav a.icon {font-family: 'Almarai', sans-serif;
+
+  float: left;
+
+}
+
+.topnav a:hover {
+
+  background-color: #1f252e;
+
+  color: white;
+
+}
+
+.active {font-family: 'Almarai', sans-serif;
+
+  background-color: #1f252e;
+
+  color: black;
+
+}
+
+</style>
+
+        
+
+ 
+
+<style>
+
+body {
+
+  font-family: Arial;
+
+}
+
+* {font-family: 'Almarai', sans-serif;
+
+  box-sizing: border-box;
+
+}
+
+.openBtn {
+
+  background: #f1f1f1;
+
+  border: none;
+
+  padding: 10px 15px;
+
+  font-size: 20px;
+
+  cursor: pointer;
+
+}
+
+.openBtn:hover {
+
+  background: #bbb;
+
+}
+
+.overlay {
+
+  height: 100%;
+
+  width: 100%;
+
+  display: none;
+
+  position: fixed;
+
+  z-index: 1;
+
+  top: 0;
+
+  left: 0;
+
+  background-color: rgb(0,0,0);
+
+  background-color: rgba(0,0,0, 0.9);
+
+}
+
+.overlay-content {
+
+  position: relative;
+
+  top: 46%;
+
+  width: 80%;
+
+  text-align: center;
+
+  margin-top: 30px;
+
+  margin: auto;
+
+}
+
+.overlay .closebtn {
+
+  position: absolute;
+
+  top: 20px;
+
+  right: 45px;
+
+  font-size: 60px;
+
+  cursor: pointer;
+
+  color: white;
+
+}
+
+.overlay .closebtn:hover {
+
+  color: #ccc;
+
+}
+
+.overlay input[type=text] {
+
+  padding: 15px;
+
+  font-size: 17px;
+
+  border: none;
+
+  float: left;
+
+  width: 80%;
+
+  background: white;
+
+}
+
+.overlay input[type=text]:hover {
+
+  background: #f1f1f1;
+
+}
+
+.overlay button {
+
+  float: left;
+
+  width: 20%;
+
+  padding: 15px;
+
+  background: #ddd;
+
+  font-size: 17px;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+.overlay button:hover {
+
+  background: #bbb;
+
+}
+
+</style>
+
+
+<div>
+
+
+
+ 
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+
+
+
+
+
+
+ <!--------- التليجرام --------->
+
+<svg style="display:none">
+
+<defs>
+
+<symbol id="telegramfill" viewBox="0 0 100 100">
+
+<path d="M50 0c27.6 0 50 22.4 50 50s-22.4 50-50 50S0 77.6 0 50 22.4 0 50 0z" fill="#4eb7e6"></path><path d="M38.6 71c-1.7 0-1.4-.6-2-2.2l-5-16.3 30.7-19.2 3.6.9-3 8.1" fill="#c8daea"></path><path d="M38.6 71c1.3 0 1.9-.6 2.6-1.3 1.1-1.1 15.6-15.2 15.6-15.2L48 52.4l-8.2 5.2-1.1 13" fill="#a7c2d1"></path><path d="M39.5 57.8l20.9 15.5c2.4 1.3 4.1.6 4.7-2.2l8.5-40.2c.9-3.5-1.3-5.1-3.6-4.1L20 46.1c-3.4 1.4-3.4 3.3-.6 4.1l12.8 4L62 35.5c1.4-.9 2.7-.4 1.6.5" fill="#eff7fc"></path>
+
+</symbol>
+
+</defs>
+
+</svg>
+
+<div class="messanger telegram-luna is-active">
+
+<span class="telegram-luna__new" aria-hidden="true" style="display:none">+179</span>
+
+<a class="messanger__in" href="https://t.me/DXsyria7go:telegramblank" title="Join our Telegram channel">
+
+
+
+<svg class="telegram-luna__icon">
+
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegramfill">
+
+</use>
+
+</svg>
+
+</div>
+
+
+</div>
+
+<style>
+
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap" rel="stylesheet">
+
+.pulse{animation:pulse 2s infinite}
+
+@keyframes btnun-what{10%{transform:translate(10,200px)}50%{transform:translate(0,-40px)}70%{transform:scale(1.1)}}
+
+@keyframes pulse{50%{transform:scale(1.1)}}
+
+@keyframes blink{50%{opacity:0}from{opacity:1}to{opacity:1}}
+
+.messanger{background-color:#fff;border-radius:5px;bottom:20px;box-sizing:border-box;cursor:pointer;height:50px;padding:10px;opacity:0;padding:5px;pointer-events:none;position:fixed;right:20px;transition:all 0.2s;width:50px;z-index:999}
+
+.messanger.is-active{opacity:1;pointer-events:auto}
+
+.messanger:before{border-radius:5px;bottom:0;box-shadow:0 24px 24px rgba(14,10,50,0.25);content:"";left:0;pointer-events:none;position:absolute;right:0;top:0}
+
+.messanger:hover .messanger__desc{opacity:1;pointer-events:all}
+
+.messanger__desc{-ms-flex-positive:1;-webkit-box-flex:1;flex-grow:1;margin-left:19px;opacity:0;pointer-events:none;transition:opacity 0.2s}
+
+.messanger__in{-ms-flex-align:center;-webkit-box-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;overflow:hidden;white-space:nowrap}
+
+.messanger__text{color:#13244f;font-size:0.875rem}
+
+.messanger__thumbnail{-ms-flex-item-align:baseline;align-self:baseline;height:40px;position:relative;width:40px}
+
+.messanger__thumbnail:after{-webkit-animation:blink 2s infinite;animation:blink 2s infinite;background-color:#23e16f;border:2px solid #fff;border-radius:50%;bottom:0;content:"";height:8px;position:absolute;right:0;width:8px}
+
+.telegram-luna:hover{width:292px}
+
+.telegram-luna__icon{height:40px;width:40px}
+
+.telegram-luna__title{color:#4ea8d1;font-size:0.875rem;font-size:0.75rem;text-transform:uppercase}
+
+.messanger a{background:transparent;border:0;color:#231c57;font-size:100%;margin:0;outline:0;padding:0;text-decoration:none;vertical-align:baseline}
+
+.messanger h6{background:transparent;border:0;font-size:100%;font-weight:400;margin:0;outline:0;padding:0;vertical-align:baseline;font-family: 'Almarai';text-align: center;}
+
+</style>
+
+ <!--------- التليجرام --------->
+
+ <style>
+    .dots {    content: '';
+    width: 20px;
+    height: 20px;
+    background: #ff003b;
+    position: absolute;
+    z-index: 11;
+    border-radius: 50%;
+    margin: 10px;
+    /* bottom: 28px; */
+    left: -13px;
+    margin-top: 19px;
+}
+    .dots::before {content: '';position: relative;display: block;width: 300%;height: 300%;box-sizing: border-box;margin-right: -100%;margin-top: -100%;border-radius: 45px;background-color: #ff003b;animation: pulse-ring 1.25s cubic-bezier(10.215, 0.61, 0.355, 1) infinite;}
+    .dots::after {content: '';position: absolute;left: 0;top: 0;display: block;width: 100%;height: 100%;border-radius: 15px;box-shadow: 0 0 8px rgba(0,0,0,0.3);animation: pulse-dot 1.25s cubic-bezier(1.455, 0.03, 0.515, 0.955) -0.4s infinite}
+    .item-post .post-body {font-family: 'Inter', sans-serif;font-size: 15.3px}
+    .plyr {--plyr-color-main: #383636;box-shadow: 11px 10px 19px #383636;border-radius: 0;}
+    .plyr__volume {min-width: 190px}
+    #idch {right: 21%;position: fixed;/*bottom: 12.9%*/}
+    .plyr__video-wrapper::before {/*position:absolute;top:45%;z-index:2;opacity:.7;content:'';height:50%;width:120px;background:url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnH4gnhgFAhN6P9EFd40wIuQ83QXjBC-ZB_5P2bp0MWT1a2zN1fSsIMqFUE35kws_9ynlhsHY9NmgBAp7BYVRDv5JTPI17YqHyh6uUAJbHYTp-yPSA9PI7U_TfWZcN-b7moy3Im_BEmmzHcRHWQG1bZg_zRotmvyvfrAInNsKZvNPwKZcG6ZKXKfwp/s320/Insnesia+.webp=s120') no-repeat;background-size:120px auto,auto;right:5%;*/}
+.plyr__controls__item.plyr__volume::before {content: 'مباشر';font-weight: 900;margin-right: 15px;color: white;font-family: 'Baloo Bhaijaan 2', cursive,Dubai-Bold,Changa,Droid Arabic Kufi,tahoma;padding: 2px;border-radius: 3px;    margin: 5px;
+
+}
+    @keyframes pulse-ring {
+    0% {
+    	transform: scale(0.33);
+	}
+	80%, 100% {
+    	opacity: 0;
+	}
+}
+    @keyframes pulse-dot {
+    0% {
+    transform: scale(0.8);
+	}
+	50% {
+    transform: scale(1);
+	}
+	100% {
+    transform: scale(0.8);
+	}
+}
+.plyr__volume {min-width: 100px !important}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+</style>
+  
+
+  <style class="INLINE_PEN_STYLESHEET_ID">
+    .container {
+ /* height: 100vh; */
+width: 100%;
+height: 100%;
+
+color: red;
+background-color: black;
+position: fixed;
+top: 10px;
+right: 10px;
+bottom: 10px;
+left: 10px;
+padding: 10;
+font-size: 20px;
+font-weight: normal;
+font-style: normal;
+font-family: Arial, Helvetica, sans-serif;
+word-break: initial;
+}
+
+video {
+  width: 100%;
+
+
+
+/************************
+
+  </style>
+
+  <style>
+
+.adako {
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2';
+}
+  </style>
+
+</head>
+
+  </style>
+
+</head>
+<body>
+
+
+<center>
+<!--[اعلان أدسنس]-->
+<div class="adako">
+<CENTER><a href="https://yamanx7.xyz/legend/index.html"target="_blank">
+<img src="https://imgs1.e-droid.net/srv/imgs/cards/c2094178_4477558_main.png?v=1" width="370" height="90" border="X" align="http://www.elahmad.com/api/ middle" /></a></CENTER>
+
+
+</div>
+<!--[اعلان أدسنس]-->
+
+</center>
+</div>
+</div>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></body></html>
+
+
+
 <!DOCTYPE html>
 <html dir="rtl" lang="ar">
 	<head>
@@ -8,7 +885,7 @@
 
 	<body>
 				                <style>.albaplayer_server-body {height: 100vh}</style>        <div class="albaplayer_server-body">
-                        <div class='video-con embed-responsive'><iframe allowfullscreen='' class='cf' frameborder='0' name='search_iframe' rel='nofollow' sandbox='allow-forms allow-same-origin allow-scripts' scrolling='no' src='https://kkk.alkoora.live/albaplayer/on-time-sport-1/?serv=2'height='500'  width='99%'></iframe></div>                        <div class='albaplayer_videos_channel'>
+                        <div class='video-con embed-responsive'><iframe allowfullscreen='' class='cf' frameborder='0' name='search_iframe' rel='nofollow' sandbox='allow-forms allow-same-origin allow-scripts' scrolling='no' src='https://kkk.alkoora.live/albaplayer/on-time-sport-1/?serv=1'height='500'  width='99%'></iframe></div>                        <div class='albaplayer_videos_channel'>
                                             </div>
                     </div>
         		
@@ -16,6 +893,24 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
@@ -25,46 +920,6 @@
   
 
 
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>HTML:APP24/MOB</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style type="text/css">
-*{user-select:none;margin:0;padding:0;box-sizing:border-box;outline:none;user-select:none;}
-body{background:#000;}
-div .poster{overflow-x:scroll;overflow-y:hidden;white-space:nowrap;margin:2px;}
-#xs-header{background:#000;left: 0;position: fixed;top:0px;width: 100%;z-index: 90;height: 8%;}
-footer{background:#000;display:flex;width:100%;bottom:0;justify-content:space-around;align-items:center;padding:6px 2px;position:fixed;left:0;right:0px;color:#fff;}
-footer div{font-size:10px;text-align:center;justify-content:center;align-items:center;}
-footer i{padding-left:10px;}
-/*footer end*/
-footer img{height:20px;width:20px;margin-bottom:3px;}
-footer svg{height:20px;width:20px;margin-bottom:3px;}
-footer span{transform:scale(1);}
-#s-f{margin-bottom:40px;}
-.slider {width: 100%;margin: auto;overflow: hidden;}
-.slider ul {display: flex;padding: 0;width: 400%;animation: cambio 20s infinite alternate linear;}
-.slider li {width: 100%;list-style: none;}
-.slider img {width: 100%;}
-@keyframes cambio {
-0% {margin-left: 0;}
-20% {margin-left: 0;}
-25% {margin-left: -100%;}
-45% {margin-left: -100%;}
-50% {margin-left: -200%;}
-70% {margin-left: -200%;}
-75% {margin-left: -300%;}
-100% {margin-left: -300%;}}
-</style>
-</head>
-<body>
-
-
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>سيرفر2</title>
 
 <meta charset="UTF-8">
 
@@ -408,206 +1263,11 @@ position:responsive;
 			
 	
 			
-			 
-	
-	
-	
-
-
-
-
-
-</div>
-
-
-
-
-
-	  
-   </div>
- 
-	
-	
-
-
-
-
-
-
-
-
-
-
-<div>
-
-
-
-
-	
-	  
-   </div>
- 
-
-
-
-			
-			
-			
-			
-
-
-</div>
-
-
-
-
-
-
-
-
-
-<div>
-
-
-			
-			
-			
-	
-			
-			 
-	
-	
-	
-
-</div>
-
-
-
-
-
-
-</div>
-   
-	
-
-
-
-  
-
-
-</div>
-
-
-
-
-
-
-
-
-			
-			
-			
-	
-			
-			 
-	
-	
-	
-
-</div>
-
-
-
-
-
-
-</div>
-   
-	
-
-
-
-  
-
-
-</div>
-
-
-
-
-
-
-
-
-   
-	
-			
-	
-			
-			 
-	
-	
-	
-
-</div>
-
-
-
-
-
-
-</div>
-   
-	
-
-
-
-  
-
-
-</div>
-
-
-			
-			
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
+		
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  	
+		
   
   
   
@@ -622,7 +1282,19 @@ position:responsive;
 <div id="foot-m">
 <a href="https://t.me/dxsyria7"><i class="material-icons">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 24 24"><path d="M21 20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.49a1 1 0 0 1 .386-.79l8-6.222a1 1 0 0 1 1.228 0l8 6.222a1 1 0 0 1 .386.79V20zm-2-1V9.978l-7-5.444l-7 5.444V19h14z" fill="#fb2e5e"></path></svg></i></a>
-<div>اهداف مباريات االيوم </div></div>
+<div> </div></div>
+
+
+
+
+<br />
+<!--Barra de navegacion-->
+<div id="s-f"></div>
+<footer id="foot">
+<div id="foot-m">
+<a href="https://t.me/dxsyria7"><i class="material-icons">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 24 24"><path d="M21 20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.49a1 1 0 0 1 .386-.79l8-6.222a1 1 0 0 1 1.228 0l8 6.222a1 1 0 0 1 .386.79V20zm-2-1V9.978l-7-5.444l-7 5.444V19h14z" fill="#fb2e5e"></path></svg></i></a>
+<div></div></div>
 
 
 <div id="foot-m">
