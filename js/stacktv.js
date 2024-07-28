@@ -192,7 +192,7 @@
 		},
 		loadUrl: function(playUrl) {
 			let _this = this;
-			let url = "https://raw.githubusercontent.com/yamanyx/iptv/main/useetv-playlist2.m3u";
+			let url = "https://raw.githubusercontent.com/yamanyx/iptv/main/t1.m3u";
 			try {
 				url = playUrl ? playUrl.trim() : defaultSetting.default_url;
 			} catch (err) {
